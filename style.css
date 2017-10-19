@@ -1,0 +1,98 @@
+.title
+{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    
+    font-size: 5vw;
+    font-family: sequel;
+}
+
+.subTitle
+{
+    text-align: center;
+    color: white;
+    margin-top: -0.5%;
+    
+    font-size: 1vw;
+    opacity: 0.45;
+    
+    font-family: sequel;
+}
+
+.subTitle2
+{
+    text-align: center;
+    color: white;
+    margin-top: -0.2%;
+    
+    font-size: 1vw;
+    opacity: 0.85;
+    
+    font-family: sequel;
+}
+
+html, body
+{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.mainPageButtons
+{
+    margin-top: 1%;
+    text-align: center;
+    height: 2%;
+}
+
+@font-face
+{
+    font-family: sequel;
+    src: url(fonts/CODE_Bold.otf);
+}
+
+.mainPageButton
+{
+    text-align: center;
+    vertical-align: middle;
+    
+	background-color: transparent;
+    
+	border-radius: 21px;
+	border: 2px solid #ababab;
+    
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+    padding: 16px 31px;
+    
+	font-family: sequel;
+	font-size: vw;
+    text-decoration: none;
+    
+    transition: all .25s ease-in-out;
+    
+    margin-top: 2%;
+}
+
+.middleButton
+{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.mainPageButton:hover
+{
+	transform: translate3d(0px, -10%, 0px) scale(1.05);
+}
+
+.mainPageButton:active
+{
+	
+}
+
+.mainPage
+{
+    margin-top: 20%;
+}
+
